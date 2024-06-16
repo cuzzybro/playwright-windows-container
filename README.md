@@ -12,7 +12,7 @@ See here: https://learn.microsoft.com/en-us/virtualization/windowscontainers/qui
 
 ## Usage
 
-See the [`Dockerfile`](./Dockerfile) for more detail. This is using windows base image not servercore or nanoserver. 
+See the [`Dockerfile`](./Dockerfile) for more detail. This is using windows base image not servercore or nanoserver. <br>
 image: mcr.microsoft.com/windows:1809 
 The microsoft docker hub page has a complete list of images and the supported platforms/architectures. It probably pays to pull the required image before building the container
 Please note the os of the server that the image is to be deployed to and adjust the docker file according to your use case
